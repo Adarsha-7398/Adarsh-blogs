@@ -1,0 +1,30 @@
+.contact-content{
+        /* display: block; */
+        height: 100vh;
+        /* background-color: rgb(178, 212, 212); */
+        margin-top: 32px;
+        position: relative;
+        padding: 9px;
+        overflow: hidden;
+      }
+      .contact-content::after {
+        content: "";
+        background-image: url("../Blogs/blogImg/vecteezy_creative-web-and-blog-article-developer_.jpg");
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: inherit;
+        opacity: 0.15;
+        z-index: -1;
+      }
+      .form-box input, textarea{
+        width: 52vw;
+        padding: 6px 6px;
+        margin: 7px 0px;
+        font-size: 18px;
+        border: 2px solid rgb(244, 166, 20);
+        border-radius: 5px;
+      }
+      .contact-form {
+        
+      }
